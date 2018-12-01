@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        Abner Zhang&#39;s blog
+        用Swift进行iOS编程中文版(1)｜Abner Zhang&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="http://abner-zgx.github.io/archives/2018/11/">
+    <link rel="canonical" href="http://abner-zgx.github.io/2018/12/01/用Swift进行iOS编程中文版(1)/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -43,7 +43,7 @@
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="" class="animated fadeIn">
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost="false" data-istags="false
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost="true" data-istags="false
 " data-ishome="false">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -124,201 +124,141 @@
 
 <!-- Main Content -->
 
+<!--only post-->
 
-<!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
-        <header class="intro-header">
-            <div class="container">
-                <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="/img/me.png">
-                        <h5><a href="/about/">Abner Zhang</a></h5>
-                        <p></p>
+
+<img class="wechat-title-img" src="nullimg/post-default.jpg">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('img/post-default.jpg?imageView2/1/w/1400/h/400/interlace/1/q/90')
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>用Swift进行iOS编程中文版(1)</h1>
+                    
+                    <span class="meta">
+                         作者 Abner Zhang
+                        <span>
+                          日期 2018-12-01
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                        <a class="tag" href="/tags/#Swift" title="Swift">Swift</a>
+                        
+                        <a class="tag" href="/tags/#iOS" title="iOS">iOS</a>
+                        
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
-</div>
-<!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
-
-
-
-<div class="post-preview " style="background-image: url('img/post-default.jpg')">
-    <a href="/2018/11/26/iOS开发指南/">
-        <h2 class="post-title">
-            iOS开发指南
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-26
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                SwiftSwift官网：Swift org
-Swift中文网：关于 Swift - Swift 编程语言
-Object-CObject-C 官网:  Programming with Objective-C
-iOSiOS开发、面试的文章：小专栏 － 专业人士的创作知识社区
-其他Playgrou..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview " style="background-image: url('/img/post-default.jpg')">
-    <a href="/2018/11/25/hello-world/">
-        <h2 class="post-title">
-            欢迎来到我的技术博客!
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2018-11-25
-        </p>
-        
-        <h3 class="post-subtitle">
-            这是一份发帖教程
-        </h3>
-        
-        <div class="post-content-preview">
-            <p>
-                欢迎来到 我的博客! 想要阅读更多我的文章，可以访问我的 知乎；我在github的仓库. 这是我的第一个帖子，在本贴中主要讲述了如何新建一个帖子、如何生成帖子、如何在本地服务器运行以及发布到github中.
-快速开始Create a new post$ hexo new "My New Post..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-        </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <img src="/img/me.png">
-                    
-                    <h5><a href="/about/">Abner Zhang</a></h5>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://twitter.com/Abner_xiang">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://www.zhihu.com/people/zhang-gao-xiang-5">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa  fa-stack-1x fa-inverse">知</i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="http://weibo.com/Abner_Xiang">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://www.facebook.com/people/张高翔/100026709180129">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://github.com/Abner-Zgx">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
-            
-            <section>
-                <div class="tags">
-                    
-                    
-                    <a href="/tags/#Swift" title="Swift" rel="2">Swift</a>
-                    
-                    
-                    
-                    
-                    
-                    <a href="/tags/#iOS" title="iOS" rel="2">iOS</a>
-                    
-                    
-                </div>
-            </section>
-            
-
-            
-
         </div>
     </div>
-</div>
+    <div class="post-title-haojen">
+        <span>
+            用Swift进行iOS编程中文版(1)
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <h2 id="本文仅为大家方便学习，切勿转载"><a href="#本文仅为大家方便学习，切勿转载" class="headerlink" title="本文仅为大家方便学习，切勿转载"></a>本文仅为大家方便学习，切勿转载</h2><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>我经常被问到一个问题：“Swift准备好应用开发了吗？”</p>
+<p>答案是：“当然”</p>
+<p>这就是我的回答，不是因为我以教授Swift编程谋生或是希望你购买我的课程/书。我已经用各种编程语言进行开发有15个年头了，如今Swift是我最喜爱的语言。这门全新的编程语言经过精心的设计，语法简洁。相较老牌的Object-C，Swift更易学习并且让我在iOS应用程序开发中更有效率</p>
+<p>在2014年6月，苹果公司第一个公布了Swift，之后Swift经历了几次更新。如今，苹果已经发布了Swift4.2以及更多特性的Xcode10。尽管Swift仍然“年轻”，从它第一次发布后，经过4年多的发展，它已不再被认为是一门“青涩”的编程语言。如今，这门语言已经稳定、更加成熟，并完全可以用于iOS、macOS、watchOS以及tvOS应用开发。像来福车、领英、 Mozilla这样的公司已经用Swift开发他们的应用。无论你正在计划开发你的下一个iOS应用或者你想要以iOS开发为职业，Swift都是需要学习和使用的编程语言。</p>
+<p>这本书涵盖了所有你想要学习的iOS应用开发。但要注意的是，Swift只是一门编程语言。为了开发iOS应用，你需要更进一步。在介绍Swift4.2之前，这本书会教你如何使用Xcode10设计用户界面、教你掌握iOS12框架必要的API。最重要的是，你会学到Swift编程技能，从头开始开发一个真正的应用。</p>
+<p>作为一个没有任何编程背景的初学者，你可能会问自己是否学习Swift编程并开发一个真正的iOS应用。</p>
+<p>我从Swift发布之初便开始Swift编程，Swift更平易近人，并且对新手来说，学习比Objective-C要容易得多。并不是每个人都能成为优秀的开发人员，但我相信每个人都能学习编程，用Swift开发应用程序。你所需要的就是努力工作、决心和采取行动的意愿。</p>
+<p>大约6年前，我发布了AppCoda，并开始每周发布iOS编程教程。从那时起，我已经出版了几本关于iOS应用程序开发的书。起初，我认为那些想学习应用程序开发的人，是那些有编程经验和技术背景的人。有趣的是，来自不同背景的人们，热衷于构建他们自己的应用程序。我有一位来自法国的读者，他的专业是外科医生，从零编程经验开始到发布他的第一个应用程序，他的应用允许任何人免费分享和宣传。另一个读者是职业飞行员，几年前，他开始学习iOS编程，现在正在为自己和其他飞行员开发iPhone应用程序。BooZy是一个寻找快乐时光、日常交易和早午餐的应用程序。它是由一所法学院辍学者编写的，这个应用程序的创建者在DC地区找不到喝酒的好去处，所以她决定制作一个应用程序来满足实际需要。同样，当她想出这个主意时，她不会编程，她在那个时候才开始接触编程并一直学习。</p>
+<p>有时，我会收到想要开发应用程序的人的电子邮件。电子邮件通常提到这样的事情：“我有一个应用程序的想法。我从哪里开始？但我没有编程技巧。我能从零开始学习吗？</p>
+<p>我从这些真正鼓舞人心的故事中学到的是，不需要为了开发一款应用，而去读取并获得计算机科学或工程学学位。这些读者有一个共同点，他们决心采取行动，他们都在努力实现这款应用。这也是你所需要的。</p>
+<p>你有开发一个应用程序的想法吗？我相信你可以自己做一个。记住，如果你真的对学习充满热情，那么没有什么可以阻止你学习和完成任务。让我借一个我最喜欢的引文从最后一课得出结论：<br>障碍的存在是有原因的：它们让我们证明我们是多么渴望得到东西。<br>                                                                                <br>- Randy Pausch</p>
+<p>最后，谢谢你拿到这本书。我希望你会喜欢阅读它，并在App Store推出第一款iOS应用程序。如果你想分享你的第一个应用的故事，给我发封邮件到<a href="mailto:simonng@appcoda.com" target="_blank" rel="noopener">simonng@appcoda.com</a>.我很乐意收到你的来信。</p>
+<p>西蒙NG<br>AppCODA创始人</p>
+
+                <hr>
+                
+
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/2018/11/26/iOS开发指南/" data-toggle="tooltip" data-placement="top" title="iOS开发指南">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+
+                
+
+
+                <!--加入新的评论系统-->
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本文仅为大家方便学习，切勿转载"><span class="toc-text">本文仅为大家方便学习，切勿转载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#序言"><span class="toc-text">序言</span></a></li></ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#Swift" title="Swift">Swift</a>
+                        
+                        <a class="tag" href="/tags/#iOS" title="iOS">iOS</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+
+
+
+
 
 <!-- Footer -->
 <!-- Footer -->
